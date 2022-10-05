@@ -6,6 +6,8 @@ class URI
     {
         int a = int.Parse(Console.ReadLine());
         int b = int.Parse(Console.ReadLine());
-        Console.WriteLine($"X = {a + b}");
+        int c = int.Parse(Console.ReadLine());
+        int d = int.Parse(Console.ReadLine());
+        Console.WriteLine($"DIFERENCA = {a * b - c * d}");
     }
 }
